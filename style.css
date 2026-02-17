@@ -1,0 +1,90 @@
+body {
+    font-family: "Artifika";
+}
+ul {
+    list-style-type: none;
+    list-style: none;
+}
+button {
+    background-color: brown;
+    border: none;
+    cursor: pointer;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+button:hover {
+    background-color: red;
+}
+nav {
+    background-color: orange;
+    width: 100%;
+    height: 200px;
+}
+nav button{
+    margin-top:70px;
+    margin-left: 50px;
+    width: 100px;
+    height: 70px;
+}
+.logo {
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 150px;
+    height: 150px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav {
+    display: flex;
+}
+header {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1.name {
+    font-size: 50px;
+    color: brown;
+}
+h3.devise {
+    font-size: 20px;
+    color: brown;
+}
+p.introtext {
+    font-size: 15px;
+    color:  lightsalmon;
+}
+div.hero-section-play {
+    width: 500px;
+    height: 500px;
+    background-image:url('logoorg.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+div.hero-section-play button {
+    margin: 0 auto;
+    width: 250px;
+    height: 100px;
+    transition: 0.3s;
+}
+section.news {
+  margin: 0 auto;  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 16px;
+}
