@@ -7,20 +7,30 @@ ul {
     list-style: none;
 }
 button {
-    background-color: brown;
-    border: none;
-    cursor: pointer;
-    color: white;
-    width: 100px;
-    height: 30px;
-    border: 2px solid black;
+    width: 250px;
+    height: 40px;
+    color: #2A2725;
+    font-family: "TF2C Build", serif;
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1.5px solid transparent;
+    background: linear-gradient(180deg, #E5D9C1, #B8AE92, #9C8E71) padding-box, linear-gradient(180deg, #FFFDF0, #FFF7DA 10%, #B6A279 90%, #91794C 100%) border-box;
+    background-repeat: no-repeat;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition: 0.5s;
 }
+
+    
 header img {
     border-radius: 10px;
 }
 button:hover {
-    background-color: red;
+    color: #ECE3CB;
+    background: linear-gradient(180deg, #9D4F3F, #70392D, #512A20) padding-box, linear-gradient(180deg, #DA9C77, #AD5444 10%, #572D22 90%, #2C1813 100%) border-box;
 }
 nav {
     background-color: orange;
@@ -57,7 +67,7 @@ header {
     padding: 0;
     box-sizing: border-box;
 }
-h1.name {
+h1 {
     font-size: 50px;
     color: brown;
 }
@@ -165,4 +175,40 @@ footer {
 }
 footer * {
     margin-top: 10px;
+}
+div.Roblox_Gamepass {
+    width: auto;
+    min-width: 250px;
+    height: auto;
+    min-height: 150px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+div.Roblox_Gamepass img {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+div.Roblox_Gamepass button {
+    width: auto;
+    height: auto;
+}
+section.Game-Pases-Section h1{
+    display: flex;
+    justify-content: center;
+}
+section.Game-Pases-Section  {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.name2 {
+    margin: 0 auto;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
 }
