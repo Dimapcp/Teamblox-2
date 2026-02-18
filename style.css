@@ -1,7 +1,29 @@
 body {
-    font-family: "Artifika";
+    font-family: "TF2";
     background-color: rgb(134, 124, 114);
 }
+@font-face {
+    font-family: "TF2Build";
+    src: url('sigma-fonts/TF2Build.ttf') format('truetype');
+}
+@font-face {
+    font-family: "TF2";
+    src: url('sigma-fonts/TF2.ttf') format('truetype');
+}
+@font-face {
+    font-family: "TF2secondary";
+    src: url('sigma-fonts/TF2secondary.ttf') format('truetype');
+}
+button {
+    font-family:"TF2Build" ;
+}
+p {
+    font-family: "TF2Build";
+}
+li {
+    font-family: "TF2Build";
+}
+/* Artifika */
 ul {
     list-style-type: none;
     list-style: none;
