@@ -1,5 +1,6 @@
 body {
     font-family: "Artifika";
+    background-color: rgb(134, 124, 114);
 }
 ul {
     list-style-type: none;
@@ -14,6 +15,9 @@ button {
     height: 30px;
     border: 2px solid black;
     transition: 0.5s;
+}
+header img {
+    border-radius: 10px;
 }
 button:hover {
     background-color: red;
@@ -69,6 +73,7 @@ div.hero-section-play {
     width: 500px;
     height: 500px;
     background-image:url('logoorg.png');
+    border-radius: 10px;
     background-size: cover;
     background-position: center;
     margin: 0 auto;
@@ -87,4 +92,77 @@ section.news {
   align-items: center;
   flex-direction: column;
   font-size: 16px;
+}
+section.Intro#Intro *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+section.news h2 {
+    font-size: 30px;
+}
+section.news *:hover {
+    font-weight:bold;
+    font-size: 30px;
+    cursor: default;
+    text-align: center;
+}
+section.news img:hover {
+    width: 100px;
+    height: 100px;
+    cursor: default;
+}
+section.news {
+    width: 500px;
+    height: auto;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: aliceblue;
+}
+section.features#features *:hover {
+    font-weight:bold;
+    font-size: 30px;
+    cursor: default;
+    text-align: center;
+}
+section.features#features img:hover {
+    width: 100px;
+    height: 100px;
+    cursor: default;
+}
+section.features#features {
+    width: 500px;
+    height: auto;
+    background-color:burlywood;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: aliceblue;
+    text-align: center;
+}
+div.spase-betwen {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+div.spase-betwen section{
+    margin: 0 auto
+}
+footer {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: black;
+    margin: 0 auto;
+    color: azure;
+    height:100px;
+    margin-top: 50px;
+}
+footer * {
+    margin-top: 10px;
 }
