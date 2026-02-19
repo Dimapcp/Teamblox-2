@@ -15,13 +15,16 @@ body {
     src: url('sigma-fonts/TF2secondary.ttf') format('truetype');
 }
 button {
-    font-family:"TF2Build" ;
+    font-family:"TF2Build" !important;
 }
 p {
-    font-family: "TF2Build";
+    font-family: "TF2secondary";
+}
+h1,h2,h3 {
+    font-family: "TF2";
 }
 li {
-    font-family: "TF2Build";
+    font-family: "TF2secondary";
 }
 /* Artifika */
 ul {
@@ -233,4 +236,36 @@ section.Game-Pases-Section  {
     display: flex;
     justify-self: center;
     flex-direction: column;
+}
+h1.name3 {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+.Empty-page {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    margin-top: 15px;
+}
+div.Credit{
+    width: 200px;
+    height: 100px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 10px;
+}
+div.Credit img {
+    width: 50px;
+    height: 50px;
+}
+section.Credits {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
 }
